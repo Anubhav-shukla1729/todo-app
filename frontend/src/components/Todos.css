@@ -1,0 +1,28 @@
+/* Todos.css */
+
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.todo-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.todo-item h1 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.todo-item button {
+    margin: 5px;
+}
